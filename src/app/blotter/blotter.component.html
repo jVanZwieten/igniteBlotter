@@ -1,5 +1,71 @@
-<div>
-  <igx-grid #grid1 [data]="localData" [autoGenerate]="true" [width]="'100%'" [height]="'800px'">
-  </igx-grid>
-</div>
-
+<igx-grid #grid1 [data]="localData" [width]="'1240px'" [height]="'900px'">
+  <igx-column field="Ind Sect(s)" width="180px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Ind Grou(s)" width="180px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Ind Subg(s)" width="180px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Cpn Typ(s)" width="100px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Issuer N(s)" width="180px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Moody's(s)" width="80px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Fitch(s)" width="80px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="DBRS(s)" width="75px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Collat T(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Curncy(s)" width="80px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Security" width="200px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="sector" width="80px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="CUSIP(s)" width="100px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Ticker(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Cpn(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Maturity(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="KRD_3YR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="RISK_COUNTRY" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="MUNI_SECTOR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="ZV_SPREAD" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="KRD_5YR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="KRD_1YR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PD_WALA" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="STRUCTURE" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PRIN_BE_CUM_LOSS" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PD_CPR_3M" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="KTRD_2YR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="TICKER" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="COLLATERAL_TYPE" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PRIN_LOSS_DOLLAR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="KRD_2YR" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PUT_CALL" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="PD_CPR_WALEQ" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Amt Out(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Amt Issu(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Curr Net" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="pn Freq(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Cpn Freq(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Bid OAS(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Bid Modi(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="OAS DV01" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Mid Conv(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Bid OAS(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Net P&L" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="MTD Rlzd(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="MTD Unrl(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="YTD Rlzd(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="YTD Unrl(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Amort P&(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Acc Int(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Yest MTM(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Mid Px" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="YAS Bond(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="YAS OAS(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Imp Px S(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="DDM Inte(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Mid Curr(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="TDS Cred" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="D to Mat" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Dur 1" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="WAM(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="WA Life(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Typ(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Tranche(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Factor D(s)" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="ECON_YIELD" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="MKT_NOTION" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Background Mkt Notion Alloc%" width="150px" filterable="true" sortable="true"></igx-column>
+  <igx-column field="Weighted Yield by MKT Notion" width="150px" filterable="true" sortable="true"></igx-column>
+</igx-grid>
