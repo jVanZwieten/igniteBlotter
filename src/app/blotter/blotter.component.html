@@ -3,8 +3,8 @@
   <igx-column field="TimeStamp" header="Time Stamp" dataType="Date" width="120px" hidden="hidden">
     <ng-template igxCell let-val>{{val.getMonth() + 1}}-{{val.getDate()}}-{{ val.getFullYear() }}</ng-template>
   </igx-column>
-  <igx-column field="Open" width="90px">
-    <ng-template igxCell let-val>{{val.currentValue}}</ng-template>
+  <igx-column field="Open" width="120px">
+    <ng-template igxCell let-val><igx-icon *ngIf="val.change > 0" name="trending_up" color="green"></igx-icon><igx-icon *ngIf="val.change < 0" name="trending_down" color="red"></igx-icon> {{val.currentValue}}</ng-template>
   </igx-column>
   <igx-column field="High" width="90px">
     <ng-template igxCell let-val>{{val.currentValue}}</ng-template>
